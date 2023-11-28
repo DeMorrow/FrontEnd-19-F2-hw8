@@ -1,0 +1,93 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    width: 400px;
+    margin: 100px auto;
+}
+
+.form input{
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e6ebff;
+    font-family: Gilroy-Bold;
+}
+
+.form input::placeholder{
+    color: #1a2df4;
+}
+
+.form form button{
+    background-color: #1a2df4;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 20px;
+    margin: 0 auto;
+    font-weight: 100;
+    border: none;
+    font-family: Gilroy-Bold;
+}
+.form form button:hover{
+    background-color: #121ea1;
+}
+
+.form form button:active{
+    background-color: #1a2df4;
+}
+
+#form-select{
+    position: absolute;
+    z-index: -5;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.formbtn{
+    background-color: #9faffc;
+    border: 4px solid #9faffc;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+    font-family: Gilroy-Bold;
+}
+
+.form-btn:hover {
+    background-color: #7e86b0;
+}
+
+.form-btn:active {
+    background-color: #9faffc;
+    transition: 0s;
+}
+
+.form-btns{
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    font-family: Gilroy-Bold;
+}
+
+#message {
+    font-family: Gilroy-Bold;
+    font-size: 30px;
+    font-weight: 500;
+    display: center;
+    color: #1a2df4;
+}
